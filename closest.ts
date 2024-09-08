@@ -1,6 +1,3 @@
-// sort
-//loop
-// 2 pointers to find closest sum
 
 export function closest(nums: number[], target: number): number {
   nums.sort((a, b) => a - b);
@@ -25,3 +22,6 @@ export function closest(nums: number[], target: number): number {
   return ans;
 }
 module.exports = { closest };
+
+
+
